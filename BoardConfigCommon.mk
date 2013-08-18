@@ -91,6 +91,7 @@ BOARD_SEPOLICY_UNION += \
 	file_contexts \
 	property_contexts \
 	te_macros \
+	bluetooth_loader.te \
 	bridge.te \
 	camera.te \
 	conn_init.te \
@@ -99,8 +100,8 @@ BOARD_SEPOLICY_UNION += \
 	domain.te \
 	drmserver.te \
 	file.te \
-	kickstart.te \
 	init.te \
+	kickstart.te \
 	mediaserver.te \
 	mpdecision.te \
 	netmgrd.te \
