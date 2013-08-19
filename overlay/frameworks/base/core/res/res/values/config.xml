@@ -162,7 +162,9 @@
     <!-- The restoring is handled by modem if it is true-->
     <bool name="skip_restoring_network_selection">true</bool>
 
-
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">true</bool>
+    
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
@@ -221,5 +223,8 @@
     <!-- True if the Irda service should be started at system start. This currently only
          supports Samsung Galaxy S4. -->
     <bool name="config_enableIrdaManagerService">true</bool>
+
+    <!-- Panel auto-brightness configuration value -->
+    <integer name="config_panelAutoBrightnessValue">1</integer>
 
 </resources>
