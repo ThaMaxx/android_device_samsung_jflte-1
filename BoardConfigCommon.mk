@@ -78,8 +78,6 @@ BOARD_HAVE_AUDIENCE_ES325_2MIC := true
 
 # Samsung's nonstandard csd-client
 BOARD_HAVE_SAMSUNG_CSDCLIENT := true
-# Temp call audio hack
-BOARD_WANTS_JF_EARPIECE_HACK := true
 
 # Use seperate devices for VOIP
 BOARD_USES_SEPERATED_VOIP := true
@@ -95,31 +93,24 @@ BOARD_SEPOLICY_DIRS += \
         device/samsung/jf-common/sepolicy
 
 BOARD_SEPOLICY_UNION += \
-	file_contexts \
-	property_contexts \
-	te_macros \
-	bluetooth_loader.te \
-	bridge.te \
-	camera.te \
-	conn_init.te \
-	device.te \
-	dhcp.te \
-	domain.te \
-	drmserver.te \
-	file.te \
-	init.te \
-	kickstart.te \
-	mediaserver.te \
-	mpdecision.te \
-	netmgrd.te \
-	property.te \
-	qmux.te \
-	rild.te \
-	rmt.te \
-	sensors.te \
-	surfaceflinger.te \
-	system.te \
-	tee.te \
-	thermald.te \
-	ueventd.te \
-	wpa_supplicant.te
+        file_contexts \
+        app.te \
+        bluetooth.te \
+        device.te \
+        domain.te \
+        drmserver.te \
+        file.te \
+        hci_init.te \
+        healthd.te \
+        init.te \
+        init_shell.te \
+        keystore.te \
+        kickstart.te \
+        mediaserver.te \
+        nfc.te \
+        rild.te \
+        surfaceflinger.te \
+        system.te \
+        ueventd.te \
+        wpa.te \
+        wpa_socket.te

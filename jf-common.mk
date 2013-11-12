@@ -27,8 +27,8 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Expose Irda feature
-PRODUCT_COPY_FILES += \
-    device/samsung/jf-common/etc/com.sec.feature.irda_service.xml:system/etc/permissions/com.sec.feature.irda_service.xml
+# PRODUCT_COPY_FILES += \
+#     device/samsung/jf-common/etc/com.sec.feature.irda_service.xml:system/etc/permissions/com.sec.feature.irda_service.xml
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -114,7 +114,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += lights.msm8960
 
 # Irda
-PRODUCT_PACKAGES += irda.msm8960
+# PRODUCT_PACKAGES += irda.msm8960
 
 # QC Perf
 PRODUCT_PROPERTY_OVERRIDES += \
