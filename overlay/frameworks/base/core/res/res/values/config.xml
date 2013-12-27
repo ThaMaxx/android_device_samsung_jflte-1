@@ -224,7 +224,7 @@
     <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- If this is true, the screen will fade off. -->
-    <bool name="config_animateScreenLights">true</bool>
+    <bool name="config_animateScreenLights">false</bool>
 
     <!-- Panel auto-brightness configuration value -->
     <integer name="config_panelAutoBrightnessValue">1</integer>
