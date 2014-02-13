@@ -1,5 +1,10 @@
 [
   {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "kk-4.4"
+  },
+  {
     "repository": "android_device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common",
     "branch":      "kk-4.4"
