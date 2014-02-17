@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.carrier.rc \
-    init.crda.rc \
+    init.crda.sh \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
@@ -135,6 +135,11 @@ PRODUCT_PACKAGES += qrngd
 
 # Prepatch to fix BT/WiFi bus lockups
 PRODUCT_COPY_FILES += device/samsung/jflte/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
+
+# enable repeatable keys in cwm
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cwm.enable_key_repeat=true \
+    ro.cwm.repeatable_keys=114,115
 
 #common build.props
 PRODUCT_PROPERTY_OVERRIDES += \
