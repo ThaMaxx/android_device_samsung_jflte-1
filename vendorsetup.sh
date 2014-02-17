@@ -1,2 +1,2 @@
-add_lunch_combo mahdi_jflte-eng
+add_lunch_combo mahdi_jflte-userdebug
 
