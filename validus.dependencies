@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "gh",
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common",
+    "revision":      "kk-4.4.3"
+  },
+  {
+    "remote": "gh",
+    "repository": "CyanogenMod/android_device_samsung_msm8960-common",
+    "target_path": "device/samsung/msm8960-common",
+    "revision":      "cm-11.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "android_kernel_samsung_jf",
+    "target_path": "kernel/samsung/jf",
+    "revision":      "kk-4.4.3"
+  }
+]
